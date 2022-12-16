@@ -1,0 +1,32 @@
+img {
+    max-width: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  20px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+.logo img {
+    width: 300px;
+}
+
+.otoiqwase a{
+    background-color: rgb(45, 208, 5);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
