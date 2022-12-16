@@ -30,3 +30,29 @@ header ul li {
     font-weight: bold;
 
 }
+
+.hoverBar ul {
+    display: flex;
+    background-color: gray;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hovorTag{
+    padding: 5%;
+} 
+
+/* div#hoverTest01 {
+    display: none;
+    animation: fadeIn 0.6s;
+}
+
+div#hoverTest01:before{
+    content: "";
+} */
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
