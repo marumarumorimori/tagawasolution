@@ -8,6 +8,7 @@ header {
     padding:  20px;
 }
 
+/* headerの始まり */
 header ul{
     display: flex;
     justify-content: space-between;
@@ -30,3 +31,36 @@ header ul li {
     font-weight: bold;
 
 }
+
+/* headerの終わり */
+
+/* footerの始まり */
+footer {
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+}
+.footer-top {
+    /* background-color: aquamarine; */
+    display: flex;
+    padding: 50px 50px  20px 50px;
+}
+.footer-top div {
+    margin-right: 60px;
+}
+.footer-top div h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-top div ul li {
+    margin-bottom: 10px;
+    /* background-color: aqua; */
+}
+.footer-top div ul li a {
+    font-size: 0.9rem;
+}
+.footer-bottom {
+    /* background-color: rgb(232, 127, 255); */
+    text-align: center;
+    padding: 20px;
+}
+/* footerの終わり */
