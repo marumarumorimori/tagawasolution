@@ -1,5 +1,5 @@
 img {
-    max-width: 100%;
+    width: 100%;
 }
 header {
     display: flex;
@@ -32,7 +32,189 @@ header ul li {
 
 }
 
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #FF0000;
+}
+
 /* headerの終わり */
+
+/* newsの始まり */
+.main-container {
+    /* background-color: aquamarine; */
+}
+.section {
+    /* background-color: bisque; */
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.title {
+    margin-bottom: 50px;
+}
+.title h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+}
+.title p {
+    font-size: 1.6rem;
+    color: rgb(16, 136, 28);
+    font-weight: bold;
+}
+.news-bottons {
+    /* background-color: blue; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.news-bottons button{
+    background-color: rgb(190, 190, 188);
+    /* border: 1px solid #000; */
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+.news-bottons button:first-child{
+    background-color: rgb(77, 237, 24);
+    color: #fff;
+}
+/* .section-container {
+    background-color: blueviolet;
+} */
+.news-cat {
+    background-color: rgb(3, 170, 179);
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.new-sec {
+    /* background-color: rgb(238, 160, 59); */
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+.news-context {
+    padding: 20px;
+}
+.new-sec-title {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.new-sec-title p{
+    font-size: 0.8rem;
+    margin-right: 20px;
+}
+/* newsの終わり */
+
+/* tpicsの始まり */
+/* .topic-index {
+    background-color: antiquewhite;
+} */
+.topic-sec {
+    border: 2px solid rgb(166, 166, 166);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+/* tpicsの終わり */
+
+
+
+/* sasの始まり */
+
+.sec-sas {
+    background-color:rgb(195, 195, 195);
+    padding: 50px 30px 60px 30px;
+}
+.sec-sas-inner  .title {
+    max-width: 850px;
+    /* background-color: antiquewhite; */
+    margin: 0  auto 50px auto;
+}
+.sec-sas-inner {
+    /* background-color: azure; */
+    /* max-width: 850px; */
+    margin: 0 auto;
+
+}
+.sec-sas-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    margin:  0 auto;
+    width: 100%;
+}
+.sec-sas-flex a{
+    width: 25%;
+    height: 250px;
+}
+.sec-sas-flex a:hover{
+    width: 27%;
+    height: 250px;
+    transition: 0.6s;
+
+}
+/* sasの終わり */
+/* 強み */
+
+.sec-tuyomi .title {
+    /* background-color: bisque; */
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 60px 0 30px 0;
+
+}
+
+
+
+/* お問合せセクションの始まり */
+.sec-otoiawase {
+    background-color: rgb(68, 212, 71);
+    padding: 30px 30px 60px 30px;
+}
+.sec-otoiawase-inner {
+    /* background-color: azure; */
+    max-width: 850px;
+    margin: 0 auto;
+
+}
+.sec-otoiawase-inner .title h2 {
+    color: #fff;
+}
+.sec-otoiawase-inner .title p {
+    color: #fff;
+}
+.sec-otoiawase-flex {
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+.sec-otoiawase-context p {
+    /* font-size: 1rem; */
+    line-height: 2rem;
+    font-weight: bold;
+}
+.sec-otoiawase-otoi {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* お問合せセクションの終わり */
 
 /* footerの始まり */
 footer {
