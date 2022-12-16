@@ -1,0 +1,103 @@
+img {
+    width: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  20px;
+}
+
+.sassectitle{
+    background-color:  rgb(68, 212, 71);
+    padding: 50px;
+    margin-bottom: 60px;
+
+}
+.sassectitle h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.sassectitle p {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sas-title {
+    text-align: center;
+}
+.sas-title p {
+    /* font-weight: bold; */
+    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.5rem;
+    width: 800px;
+    margin: 0 auto 60px auto;
+}
+.sas-title img {
+    width: 600px;
+    margin-bottom: 80px;
+}
+
+.sas-title-inpo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.sec {
+    /* background-color: bisque; */
+    /* margin-bottom: 30px; */
+    max-width: 1000px;
+    margin:  0 auto 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec div {
+    /* margin-riszght: 10px; */
+    margin-bottom: 30px;
+
+    width: 50%;
+
+}
+
+.sec ul  {
+    padding:20px 0 0 20px
+}
+
+.sec1 div:first-child  {
+    /* background-color: aqua; */
+    margin-right: 30px;
+    width: 60%;
+
+}
+.sec2 div:last-child  {
+    /* background-color: aqua; */
+    width: 60%;
+    margin-left: 30px;
+
+}
+.sec ul li{
+    /* background-color: blue; */
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    border-bottom:1px solid #fff;
+    padding: 10px;
+}
+.sec-list {
+    background-color: rgb(175, 228, 154);
+    padding: 20px;
+}
+
+.sec-inner h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.sec-inner p {
+    line-height: 25px;
+}
