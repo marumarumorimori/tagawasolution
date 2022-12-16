@@ -32,6 +32,19 @@ header ul li {
 
 }
 
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #FF0000;
+}
+
 /* headerの終わり */
 
 /* newsの始まり */
